@@ -5,7 +5,9 @@
     width: 750px;
     margin: 0 auto;
   }
-  .slick-prev {
+
+  .prev,
+  .next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -13,21 +15,45 @@
     border: none;
     background-color: #fff;
     img {
-      width: 31px;
-      height: 50px;
-    }
-  }
-
-  .slick-next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: -69px;
-    border: none;
-    background-color: #fff;
-    img {
       width: 30px;
       height: 50px;
     }
   }
+
+  .next {
+    right: -67px;
+    left: auto;
+  }
+
+  .tns-item {
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+  }
 }
+
+// .carousel {
+//   padding: 81px 0;
+// }
+
+// .carousel .slide {
+//   position: relative;
+//   width: 750px;
+//   margin: 0 auto;
+// }
+
+// .carousel-control-prev,
+// .carousel-control-next {
+//   position: absolute;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   left: -67px;
+//   width: 30px;
+//   height: 50px;
+//   background-color: grey;
+// }
+
+// .carousel-control-next {
+//   right: -67px;
+//   left: auto;
