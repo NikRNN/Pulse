@@ -1,3 +1,50 @@
+@media (max-width: 1100px) {
+  .carousel {
+    .container {
+      max-width: 700px;
+    }
+    &__inner {
+      img {
+        width: 500px;
+      }
+    }
+    .prev,
+    .next {
+      left: -25px;
+      img {
+        width: 20px;
+        height: 30px;
+      }
+    }
+    .next {
+      right: -25px;
+      left: auto;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    .container {
+      max-width: 550px;
+    }
+    &__inner {
+      img {
+        width: 350px;
+      }
+    }
+    [type="button"] {
+      display: none;
+    }
+    .tns-nav {
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+      color: grey;
+    }
+  }
+}
+
 @media (max-width: 991px) {
   .promo {
     padding-bottom: 50px;
@@ -64,6 +111,21 @@
 
   .title {
     font-size: 25px;
+  }
+
+  .consultation {
+    min-height: 550px;
+    padding: 80px 0 70px 23px;
+    &__descr {
+      margin-top: 20px;
+      line-height: 20px;
+    }
+  }
+
+  .title {
+    &_left {
+      font-size: 20px;
+    }
   }
 }
 
@@ -163,5 +225,29 @@
 
   .title {
     font-size: 15px;
+  }
+
+  .title {
+    &_left {
+      text-align: center;
+      font-size: 18px;
+    }
+  }
+
+  .consultation {
+    min-height: 450px;
+    padding: 60px 23px 70px 23px;
+    &__descr {
+      text-align: center;
+      font-size: 20px;
+    }
+  }
+
+  .feed-form {
+    margin-top: 27px;
+    width: 250px;
+    input {
+      height: 40px;
+    }
   }
 }

@@ -24,7 +24,15 @@ const slider = tns({
   slideBy: "page",
   autoplay: false,
   controls: false,
-  nav: false,
+  navPosition: "bottom",
+  responsive: {
+    320: {
+      nav: true,
+    },
+    768: {
+      nav: false,
+    },
+  },
 });
 
 document.querySelector(".prev").addEventListener("click", function () {
@@ -34,9 +42,3 @@ document.querySelector(".prev").addEventListener("click", function () {
 document.querySelector(".next").addEventListener("click", function () {
   slider.goTo("next");
 });
-
-// const myCarouselElement = document.querySelector("carousel-inner");
-
-// const carousel = new bootstrap.Carousel(myCarouselElement, {
-//   interval: 1000,
-// });
