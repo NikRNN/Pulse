@@ -1,0 +1,11 @@
+.feed {
+  padding-bottom: 71px;
+  &-block {
+    display: flex;
+    align-items: center;
+  }
+  &-titles {
+    display: flex;
+    flex-direction: column;
+  }
+}
