@@ -184,7 +184,7 @@
   #consultation,
   #order {
     width: 360px;
-    height: 370px;
+    min-height: 370px;
     padding: 30px 30px 30px 30px;
     .button_submit {
       width: 100%;
@@ -335,7 +335,7 @@
 
   .button {
     width: 100px;
-    max-height: 26px;
+    height: 26px;
     font-size: 8px;
     &_main {
       margin-top: 23px;
@@ -427,7 +427,7 @@
 
   #consultation {
     width: 300px;
-    min-height: 330px;
+    min-height: 380px;
     padding-bottom: 15px;
     .feed-form_mt25 {
       width: 236px;
@@ -439,8 +439,6 @@
   }
 
   .modal {
-    min-height: 320px;
-    max-width: 330px;
     &__close {
       right: 20px;
       top: 10px;
@@ -450,13 +448,21 @@
   #order {
     width: 300px;
     min-height: 330px;
+
     .feed-form_mt25 {
       width: 236px;
+
       .button_submit {
+        height: 40px;
         width: 100%;
         font-size: 10px;
       }
     }
+  }
+
+  #thanks {
+    height: 170px;
+    width: 290px;
   }
 
   .feed {
