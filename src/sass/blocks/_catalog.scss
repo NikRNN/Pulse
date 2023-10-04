@@ -140,12 +140,17 @@
         transform: translateX(-100%);
         margin-left: 0px;
       }
+      ul {
+        padding-left: 0;
+        margin-bottom: 0;
+      }
       li {
         font-size: 14px;
         font-weight: 300;
         color: #555555;
         margin-bottom: 20px;
         position: relative;
+
         &:before {
           content: "";
           position: absolute;
