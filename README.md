@@ -29,7 +29,7 @@ README.md
 
 =======
 
-# GlobalOpt (JavaScript + SCSS)
+# Pulse (JavaScript + SCSS)
 
 ![Интерфейс сайта](./src/screenshots/screenshot1.png)
 ![Интерфейс сайта](./src/screenshots/screenshot2.png)
